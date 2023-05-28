@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Venda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Cadastro</h1>
+        <p>Para cadastar uma venda preencha as informações abaixo e clique no botão Cadastrar.</p>
+        <form action="" method="post">
+            
+            <label for="descrição">Descrição:</label>
+            <select name="opções" id="opções">
+                <option selected disabled value="">Selecione</option>
+                <option name="itens">Itens Variados </option>
+                <option name="agua">Água</option>
+                <option name="luz">Luz</option>
+                <option name="tel">Telefone</option>
+                <option name="imposto">Imposto</option>
+                <option name="aluguel">Aluguel</option>
+                <option name="comida">Comida</option>
+                <option name="artigos">Artigo Papelaria</option>
+                <option name="venda">Venda</option>
+            </select>
+
+            <label for="tipo-lanc">Tipo de Lançamento:</label>
+            <select name="tipo-lanc" id="tipo-lanc">
+                <option selected disabled value="">Selecione</option>
+                <option name="entrada" required>Entrada</option>
+                <option name="saida" required>Saida</option>
+            </select>
+
+            <label for="tipo-vend">Tipo Vendedor:</label>
+            <select name="tipo-vend" id="tipo-vend">
+                <option selected disabled value="">Selecione</option>
+                <option name="loja">Loja</option>
+                <option name="vendedor">Vendedor</option>
+            </select>
+
+            <label for="cliente">Cliente:</label>
+            <input type="text" name="cliente" id="cliente">
+
+            <label for="forma-pag">Forma de pagamento:</label>
+            <select name="forma-pag" id="forma-pag">
+                <option selected disabled value="">Selecione</option>
+                <option name="credLoja">Crédito Loja</option>
+                <option name="dinehiro">Dinheiro</option>
+                <option name="cartDeb">Cartão Débito</option>
+                <option name="cartCred">Cartão Crédito</option>
+                <option name="pix"> PIX </option>
+                <option name="transf">Transferência</option>
+                <option name="boleto">Boleto</option>
+            </select>
+
+            <label for="valor">Valor R$:</label>
+            <input type="number" name="valor" id="valor">
+
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Limpar">
+            <input type="button" value="Voltar ao Home" onclick="javascript:history.go(-1)">
+
+        </form>
+    </main>
+</body>
+</html>

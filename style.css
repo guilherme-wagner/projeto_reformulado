@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #9893DA, #2E6171);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+main{
+    background-color: white;
+    padding: 15px;
+    box-shadow: 3px 3px 10px #66CED6;
+    border-radius: 15px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #FF5E5B;
+    text-shadow: 1px 1px 0px #66CED6;
+}
+
+p {
+    font-size: medium;
+    text-align: justify;
+}
+
+input {
+    height: 30px;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+
+}
+
+input:hover {
+    cursor: pointer;
+    border-color: #66CED6;
+    background-color: #2E6171;
+    color: white;
+}
+
+select{
+    border-radius: 10px;
+    height: 25px;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+.submit{
+    background-color: #66ced696
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+input::placeholder{
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+/*
+
+Cores da Paleta:
+
+#ff5efb - Bittersweet
+##2e6171 Pyne's gray
+#66ced6 - Robin egg blue
+#e5d4ed - Pale purple
+#9893da - Tropical Indigo
+
+*/
