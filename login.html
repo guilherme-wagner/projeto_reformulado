@@ -8,7 +8,20 @@
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        
+        #passwd {
+            display: block;
+            height: 30px;
+            margin: 5px 0px 5px 0px;
+        }
+
+        #passwd:hover {
+            cursor: pointer;
+            border-color: #66dec6;
+        }
+
+        .input-submit {
+            width: 100%;
+        }
     </style>
 </head>
 
@@ -19,7 +32,7 @@
             <form action="home.html" method="post">
                 <input type="text" name="user" id="user" placeholder="Usuário" class="input-text">
                 <input type="password" name="passwd" id="passwd" placeholder="Senha">
-                <input type="submit" value="Entrar" class="submit" class="input-submit">
+                <input type="submit" value="Entrar" class="input-submit">
             </form>
         </div>
     </main>

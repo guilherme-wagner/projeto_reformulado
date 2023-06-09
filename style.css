@@ -41,17 +41,36 @@ label{
     margin-bottom: 2px;
 }
 
-
-
-select{
+.input-submit, .input-reset, button{
+    width: 150px;
     display: block;
-    border-radius: 10px;
-    height: 25px;
-    font-size: 0.8em;
-    margin-bottom: 5px;
+    height: 30px;
+    margin: 7px 0px 7px 0px;
 }
 
 
+.input-submit:hover, .input-reset:hover, .input-text:hover,
+.input-number:hover, button:hover, select:hover {
+    cursor: pointer;
+    border-color: #66CED6;
+}
+
+.input-text, .input-number{
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+select{
+    display: block;
+    height: 30px;
+    width: 30%;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 
 /*
 
