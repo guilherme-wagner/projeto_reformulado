@@ -13,14 +13,14 @@
         <p>Informe o nome e selecione se você deseja obter ID de cliente ou de vendedor.</p>
         <form action="" method="post">
             <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome">
+            <input type="text" name="nome" id="nome" class="input-text">
             <select name="tipo" id="tipo" >
                 <option value="" selected disabled value>Selecione</option>
                 <option value="cliente">Cliente</option>
                 <option value="vendedor">Vendedor</option>
             </select>
-            <input type="submit" value="Obter ID">
-            <input type="button" value="Voltar a página anterior" onclick="javascript:history.go(-1)">
+            <input type="submit" value="Obter ID" class="input-submit">
+            <button onclick="javascript:history.go(-1)">Voltar</button>
         </form>
     </main>
 </body>

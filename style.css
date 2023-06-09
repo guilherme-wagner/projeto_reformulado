@@ -12,12 +12,6 @@ body{
     background-image: linear-gradient(to right, #9893DA, #2E6171);
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-}
-
-
 main{
     background-color: white;
     padding: 15px;
@@ -37,19 +31,20 @@ p {
     text-align: justify;
 }
 
-input {
-    height: 30px;
-    font-size: 15px;
-    border-radius: 8px;
-    margin-bottom: 8px;
+form{
+    display: block;
 }
 
-input:hover {
-    cursor: pointer;
-    border-color:  #2E6171;
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
 }
+
+
 
 select{
+    display: block;
     border-radius: 10px;
     height: 25px;
     font-size: 0.8em;
@@ -57,15 +52,6 @@ select{
 }
 
 
-label{
-    font-weight: bold;
-    margin-bottom: 2px;
-}
-
-input::placeholder{
-    text-align: justify;
-    font-size: 1.1em;
-}
 
 /*
 
