@@ -42,14 +42,11 @@ input {
     font-size: 15px;
     border-radius: 8px;
     margin-bottom: 8px;
-
 }
 
 input:hover {
     cursor: pointer;
-    border-color: #66CED6;
-    background-color: #2E6171;
-    color: white;
+    border-color:  #2E6171;
 }
 
 select{
@@ -59,9 +56,6 @@ select{
     margin-bottom: 5px;
 }
 
-.submit{
-    background-color: #66ced696
-}
 
 label{
     font-weight: bold;
