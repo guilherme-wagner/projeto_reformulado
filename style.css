@@ -57,14 +57,14 @@ label{
 
 .input-text, .input-number{
     font-size: 1em;
-    height: 30px;
+    height: 25px;
     margin-bottom: 5px;
 }
 
 select{
     display: block;
     height: 30px;
-    width: 38%;
+    width: 30%;
     margin: 7px auto;
 }
 
