@@ -42,13 +42,12 @@ label{
 }
 
 .input-submit, .input-reset, button{
+    display: block;
     font-size: 1em;
     width: 180px;
-    display: block;
     height: 30px;
-    margin: 7px 0px 7px 0px;
+    margin: 7px auto;
 }
-
 
 .input-submit:hover, .input-reset:hover, .input-text:hover,
 .input-number:hover, button:hover, select:hover {
@@ -65,14 +64,19 @@ label{
 select{
     display: block;
     height: 30px;
-    width: 30%;
-    margin-bottom: 5px;
+    width: 38%;
+    margin: 7px auto;
 }
 
 a {
     text-decoration: none;
     color: black;
 }
+
+.centraliza {
+    text-align: center;
+}
+
 
 /*
 
